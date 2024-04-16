@@ -1,0 +1,139 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+
+}
+
+.container {
+    margin-top: 50px;
+    text-align: Left;
+    color: #f1f0f9;
+}
+
+/* styles.css */
+
+.buttons {
+    /* Remove absolute positioning */
+    /* position: absolute;
+    top: 10px;
+    right: 10px; */
+    display: flex; /* Add flex display */
+    justify-content: flex-end; /* Align buttons to the right */
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
+.buttons button {
+    margin-left: 10px; /* Keep some space between buttons */
+    /* Update padding to add more space around buttons */
+    padding: 10px 20px;
+    background-color: transparent; /* Set background color to transparent */
+    color: #d4e3f2; /* Set text color */
+    border: none; /* Remove border */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent; /* Set background color to transparent */
+    color: #007bff; /* Set text color */
+    border: none; /* Remove border */
+    padding: 10px; /* Add padding */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 4px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.quotation {
+    text-align: center;
+    font-style: italic;
+    margin-top: 200px;
+    font-weight: bold;
+
+    color: #faf3f3; /* Color for the quotation */
+}
+
+.quotation p {
+    font-style: italic;
+    margin-top: 20px; /* Increase margin-top for spacing */
+}
+/* styles.css */
+
+/* Add styles for the login form */
+.login-form {
+    position: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
